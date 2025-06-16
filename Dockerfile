@@ -18,7 +18,7 @@
 # CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
 
 
-FROM python:3.9
+FROM amazonlinux:2023
 
 # Install Python 3.9 and necessary build tools
 RUN dnf install -y \
